@@ -48,6 +48,22 @@
     <div class="content">
     <h2>Hi There,<br/> I'm Harish <span>Bhumireddi</span></h2>
     <p>i am into <span class="typing-text"></span></p>
+<div class="typing-text"></div>
+
+<!-- Include Typed.js library -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+    // Initialize the Typed.js effect
+    var typed = new Typed(".typing-text", {
+        strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+        loop: true,
+        typeSpeed: 50,
+        backSpeed: 25,
+        backDelay: 500
+    });
+</script>
+        
     <a href="#about" class="btn"><span>About Me</span>
       <i class="fas fa-arrow-circle-down"></i>
     </a>
